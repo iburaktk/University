@@ -1,0 +1,14 @@
+create -n first.txt -t C programming is awesome.
+create -t I love C programming. -n second.doc
+create -n third.txt -t Python programming is better than C programming.
+append -n second.doc -t what about you?
+print -e doc
+replace -n third.txt -ow program -nw lesson
+print -n third.txt -t
+remove -n first.txt -s 13 -l 3
+print -n first.txt -t
+print -n third.txt -cw on
+create -n fourth.txt -t C programming is awesome. I love C program! what about you?
+print -n fourth.txt -cs
+delete -n second.doc
+print -c

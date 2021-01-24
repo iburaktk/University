@@ -1,0 +1,16 @@
+create -n inputbir.txt -t aliahmetveli
+create -t cizirondobiskrem -n inputiki.txt
+create -t bim?bizim!bim.a101 -n inputüç.txt
+create -n inputdört.txt -t dellmsihp
+append -n inputiki.txt -t krispi
+append -t lenovo -n inputdört.txt
+create -t -n beş.doc
+print -n beş.doc -t
+print -n inputiki.txt -t
+print -c
+print -a
+print -e doc
+print -n inputüç.txt -cs
+print -n inputüç.txt -cw bim
+replace -n inputüç.txt -ow bizim -nw şok
+remove -n inputbir.txt -s 5 -l 3

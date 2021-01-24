@@ -1,0 +1,43 @@
+create -n first.txt -t C programming is awesome.
+create -t I love C programming. -n second.doc
+create -n third.txt -t Python programming is better than C programming.
+append -n second.doc -t what about you?
+print -e doc
+replace -n third.txt -ow program -nw lesson
+print -n third.txt -t
+remove -n first.txt -s 13 -l 3
+print -n first.txt -t
+print -n third.txt -cw on
+create -n fourth.txt -t C programming is awesome. I love C program! what about you?
+print -n fourth.txt -cs
+delete -n second.doc
+print -c
+create -n warden.txt -t  I believe in two things: discipline and the Bible. Here you'll receive both. Put your trust in the Lord; your ass belongs to me. Welcome to Shawshank.
+create -t I guess it comes down to a simple choice, really. -n andy.txt
+append -t Get busy living or get busy dying. -n andy.txt
+create -n laotzu.txt -t The journey of a thousand miles begins with one step.
+replace -n warden.txt -ow to -nw from
+replace -n warden.txt -ow you -nw lesson
+print -c
+delete -n third.txt
+remove -n andy.txt -s 0 -l 15
+print -n andy.txt -t
+create -n red.doc -t He strolled, like a man in a park without a care or a worry in the world, like he had on an invisible coat that would shield him from this place.
+print -n warden.txt -cs
+create -n godfather.doc -t I'm going to make him an offer he can't refuse.
+create -n forrest.txt -t Mama always said life was like a box of chocolates. You never know what you're gonna get.
+append -t  You never know what you're gonna get. -n forrest.txt
+print -e txt
+delete -n first.txt
+print -a
+append -t Yeah, I think it would be fair to say...I liked Andy from the start. -n red.doc
+replace -nw monkey -ow like -n red.doc
+print -e doc
+create -n jules.doc -t And I will strike down upon thee with great vengeance and furious anger those who attempt to poison and destroy my brothers.
+create -n vincent.txt -t Aw, man. I shot Marvin in the face.
+append -n jules.doc -t And you will know my name is the Lord when I lay my vengeance upon thee.
+replace -n jules.doc -ow and -nw so
+delete -n warden.txt
+append -n vincent.txt -t Just chill out, man! I told you it was an accident! You probably, you went over a bump or something...
+print -n vincent.txt -cw you
+print -c
