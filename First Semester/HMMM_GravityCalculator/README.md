@@ -1,0 +1,1 @@
+HMMM (Harvey Mudd Miniature Machine) was old 16-bit computer. To learn programming, we started with basic instructions. HMMM has just 23 instruction. In this code, we will calculate gravity.

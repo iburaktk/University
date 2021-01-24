@@ -1,0 +1,24 @@
+#r1 = initial position
+0 read r1
+#r2 = initial velocity
+1 read r2
+#r3 = falling time
+2 read r3
+#r4 = garvity acceleration = -10
+3 setn r4 -10
+#time square
+4 mul r5 r3 r3
+#time square * gravity
+5 mul r6 r4 r5
+#division by 2
+6 setn r7 2
+7 div r8 r6 r7 1/2 * gt2
+#addition all contenents
+8 mul r9 r3 r2 vt
+9 add r10 r8 r9 
+10 add r11 r10 r1
+#write answer
+11 write r11
+#finish
+12 halt
+
