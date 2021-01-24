@@ -1,0 +1,118 @@
+**********************************
+PROGRESSING COMMAND: create_table
+A new table has succesfully been added
+**********************************
+PROGRESSING COMMAND: create_table
+A new table has succesfully been added
+**********************************
+PROGRESSING COMMAND: create_table
+There is no employer named elif
+**********************************
+PROGRESSING COMMAND: new_order
+Table (= ID 0) has been taken into service
+Item Pizza added into order
+Item Pizza added into order
+Item Coke added into order
+**********************************
+PROGRESSING COMMAND: new_order
+There is no appropriate table for this order!
+**********************************
+PROGRESSING COMMAND: new_order
+Table (= ID 1) has been taken into service
+Item Pizza added into order
+Item Coke added into order
+**********************************
+PROGRESSING COMMAND: add_order
+Item Water added into order
+Item Coffee added into order
+**********************************
+PROGRESSING COMMAND: check_out
+This table is either not in service now or kemal cannot be assigned this table!
+**********************************
+PROGRESSING COMMAND: check_out
+Pizza:	3,000 (x 1) 3,000 $
+Coke:	1,500 (x 1) 1,500 $
+Total:	4,500 $
+**********************************
+PROGRESSING COMMAND: create_table
+A new table has succesfully been added
+**********************************
+PROGRESSING COMMAND: new_order
+Table (= ID 2) has been taken into service
+Item Pizza added into order
+Item Pizza added into order
+Sorry! No Pizza in the stock!
+Sorry! No Pizza in the stock!
+Sorry! No Pizza in the stock!
+Sorry! No Pizza in the stock!
+Sorry! No Pizza in the stock!
+Sorry! No Pizza in the stock!
+Item Coke added into order
+**********************************
+PROGRESSING COMMAND: stock_status
+Pizza:	0
+Hamburger:	2
+Water:	3
+Coke:	4
+Coffee:	2
+Tea:	5
+Donut:	4
+Doner:	6
+**********************************
+PROGRESSING COMMAND: add_order
+Item Donut added into order
+Item Donut added into order
+Item Tea added into order
+Item Tea added into order
+Item Tea added into order
+**********************************
+PROGRESSING COMMAND: get_order_status
+Table: 0
+	3 order(s)
+		3 item(s)
+		2 item(s)
+		5 item(s)
+Table: 1
+	0 order(s)
+Table: 2
+	1 order(s)
+		3 item(s)
+**********************************
+PROGRESSING COMMAND: check_out
+Pizza:	3,000 (x 2) 6,000 $
+Coke:	1,500 (x 1) 1,500 $
+Water:	0,500 (x 1) 0,500 $
+Coffee:	0,750 (x 1) 0,750 $
+Donut:	1,250 (x 2) 2,500 $
+Tea:	0,200 (x 3) 0,600 $
+Total:	11,850 $
+**********************************
+PROGRESSING COMMAND: check_out
+This table is either not in service now or kemal cannot be assigned this table!
+**********************************
+PROGRESSING COMMAND: check_out
+There is no waiter named ismet
+**********************************
+PROGRESSING COMMAND: get_table_status
+Table 0: Free
+Table 1: Free
+Table 2: Reserved (kemal)
+**********************************
+PROGRESSING COMMAND: get_employer_salary
+Salary for ahmet: 2750,0
+Salary for zeynep: 3000,0
+Salary for kamil: 3000,0
+**********************************
+PROGRESSING COMMAND: get_waiter_salary
+Salary for kemal: 1440,0
+Salary for ayse: 1500,0
+Salary for ziya: 1575,0
+**********************************
+PROGRESSING COMMAND: get_order_status
+Table: 0
+	0 order(s)
+Table: 1
+	0 order(s)
+Table: 2
+	1 order(s)
+		3 item(s)

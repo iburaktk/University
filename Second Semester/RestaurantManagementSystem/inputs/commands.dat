@@ -1,0 +1,21 @@
+create_table ahmet;4
+create_table zeynep;2
+create_table elif;2
+new_order kemal;3;Pizza-2:Coke-1
+new_order kemal;6;Pizza-2:Coke-1
+new_order ziya;1;Pizza-1:Coke-1
+add_order kemal;0;Water-1:Coffee-1
+check_out kemal;1
+check_out ziya;1
+create_table zeynep;6
+new_order kemal;4;Pizza-8:Coke-1
+stock_status
+add_order kemal;0;Donut-2:Tea-3
+get_order_status
+check_out kemal;0
+check_out kemal;1
+check_out ismet;0
+get_table_status
+get_employer_salary
+get_waiter_salary
+get_order_status

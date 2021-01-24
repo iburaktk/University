@@ -1,0 +1,35 @@
+create_table Tuncay;4
+create_table Gamze;2
+create_table Zeynep;3
+create_table Gamze;7
+create_table Gamze;5
+create_table Ali;10
+create_table Zeynep;6
+create_table Tuncay;2
+new_order Ayla;2;Pasta-2:Coke-2
+new_order Kemal;6;Hamburger-5:Water-1:Pizza-5:Juice-1
+new_order Kemal;10;Tea-3
+new_order Elif;3;Donut-1
+new_order Ayla;5;Pizza-4:Pasta-3:Donut-5
+new_order Ayla;1;Doner-1
+new_order Ayla;2;Tea-3
+new_order Ayse;2;Tea-2
+check_out Ayla;1
+new_order Ayla;1;Coffee-5:Tea-2
+add_order Ayla;4;Hamburger-5:Pizza-2:PanCake-1:Coffee-3
+add_order Ismet;2;Coffee-2
+add_order Kemal;2;Coffee-2
+add_order Ayse;2;Coffee-2
+add_order Ayse;2;Doner-1
+add_order Ayse;2;Doner-1
+add_order Ayse;2;Doner-1:Donut-2
+add_order Ayse;2;Doner-1
+stock_status
+get_table_status
+get_order_status
+get_employer_salary
+get_waiter_salary
+check_out Kemal;3
+check_out Ayla;0
+check_out Ayla;1
+get_table_status

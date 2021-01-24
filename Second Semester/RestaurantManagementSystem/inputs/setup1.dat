@@ -1,0 +1,17 @@
+add_employer Tuncay;1350
+add_employer Gamze;1800
+add_employer Zeynep;900
+add_waiter Kemal;1200
+add_waiter Ayse;1500
+add_waiter Ziya;1500
+add_waiter Ayla;1500
+add_item Pizza;3;10
+add_item Hamburger;1.5;15
+add_item Pasta;2.75;4
+add_item PanCake;1.05;3
+add_item Water;0.5;2
+add_item Coke;1.5;4
+add_item Coffee;0.75;10
+add_item Tea;0.2;3
+add_item Donut;1.25;9
+add_item Doner;2.5;11

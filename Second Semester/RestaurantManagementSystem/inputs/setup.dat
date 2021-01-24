@@ -1,0 +1,14 @@
+add_item Pizza;3;5
+add_item Hamburger;1.5;2
+add_item Water;0.5;4
+add_item Coke;1.5;7
+add_item Coffee;0.75;3
+add_item Tea;0.2;5
+add_item Donut;1.25;4
+add_item Doner;2.5;6
+add_employer ahmet;2500
+add_employer zeynep;2500
+add_employer kamil;3000
+add_waiter kemal;1200
+add_waiter ayse;1500
+add_waiter ziya;1500
