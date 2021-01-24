@@ -1,0 +1,2 @@
+In first semester, we get familiar with Python, Python's Collections like lists, dictionaries; C, C arrays.
+Also, we learned some algorithms. We learned difference between iterative and recursive functions.
