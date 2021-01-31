@@ -1,0 +1,3 @@
+In this project, i got familiar with Java Collections and Recursions. Our program will handle Backus-Naur Form(BNF).  
+This program, takes an input file named "BNF.dat". In this file, there are non-terminal symbols with its expansion to terminal symbols on each line.  
+Our goal in this program is reading this file, storing this data in an ArrayList, expanding it until all symbols are terminal with recursion.  
