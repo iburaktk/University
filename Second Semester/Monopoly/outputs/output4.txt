@@ -1,0 +1,40 @@
+Player 1	5	6	13000	15000	Player 1 bought Kings Cross Station
+Player 2	3	4	13000	14400	Player 2 bought Whitechapel Road
+Player 1	10	16	11000	14400	Player 1 bought Marylebone Station
+Player 2	8	12	11000	13000	Player 2 bought Pall Mall
+Player 1	12	28	8400	13000	Player 1 bought Coventry Street
+-----------------------------------------------------------------------------------------------------------
+Player 1	8400	have: Coventry Street,Kings Cross Station,Marylebone Station
+Player 2	13000	have: Whitechapel Road,Pall Mall
+Banker	108600
+Winner Player 2
+-----------------------------------------------------------------------------------------------------------
+Player 2	8	20	8400	11000	Player 2 bought Vine Street
+Player 1	11	39	8300	11000	Player 1 paid Tax
+Player 2	2	22	8300	8800	Player 2 bought The Strand
+-----------------------------------------------------------------------------------------------------------
+Player 1	8300	have: Coventry Street,Kings Cross Station,Marylebone Station
+Player 2	8800	have: Whitechapel Road,Pall Mall,Vine Street,The Strand
+Banker	112900
+Winner Player 2
+-----------------------------------------------------------------------------------------------------------
+Player 1	4	1	8700	8800	Player 1 draw Advance to Go (Collect $200)
+Player 2	6	28	9480	8020	Player 2 paid rent for Coventry Street
+Player 1	12	13	7980	8020	Player 1 bought Electric Company
+-----------------------------------------------------------------------------------------------------------
+Player 1	7980	have: Coventry Street,Kings Cross Station,Marylebone Station,Electric Company
+Player 2	8020	have: Whitechapel Road,Pall Mall,Vine Street,The Strand
+Banker	114000
+Winner Player 2
+-----------------------------------------------------------------------------------------------------------
+Player 2	1	29	7980	6520	Player 2 bought Water Works
+Player 1	3	16	7980	6520	Player 1 has  Marylebone Station
+Player 2	4	33	7980	3520	Player 2 bought Oxford Street
+Player 1	9	25	5580	3520	Player 1 bought Trafalgar Square
+Player 2	7	40	5580	3520	Player 2 goes bankrupt
+-----------------------------------------------------------------------------------------------------------
+Player 1	5580	have: Coventry Street,Kings Cross Station,Marylebone Station,Electric Company,Trafalgar Square
+Player 2	3520	have: Whitechapel Road,Pall Mall,Vine Street,The Strand,Water Works,Oxford Street
+Banker	120900
+Winner Player 1
+-----------------------------------------------------------------------------------------------------------

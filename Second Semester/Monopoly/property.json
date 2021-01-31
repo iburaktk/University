@@ -1,0 +1,37 @@
+{
+    "1": [
+        {"id": "2","name":"Old Kent Road","cost": "600"},
+        {"id": "4","name":"Whitechapel Road", "cost": "600"},
+		{"id": "7","name":"The Angel Islington","cost": "1000"},
+		{"id": "9","name":"Euston Road", "cost": "1000"},
+		{"id": "10","name":"Pentonville Road","cost": "1200"},
+		{"id": "12","name":"Pall Mall","cost": "1400"},
+		{"id": "14","name":"Whitehall","cost": "1400"},
+		{"id": "15","name":"Northumberland Avenue","cost": "1600"},
+		{"id": "17","name":"Bow Street","cost": "1800"},
+		{"id": "19","name":"Marlborough Street","cost": "1800"},
+	    {"id": "20","name":"Vine Street","cost": "2000"},
+	    {"id": "22","name":"The Strand","cost": "2200"},
+	    {"id": "24","name":"Fleet Street","cost": "2200"},
+	    {"id": "25","name":"Trafalgar Square", "cost": "2400"},
+		{"id": "27","name":"Leicester Square","cost": "2600"},
+	    {"id": "28","name":"Coventry Street","cost": "2600"},
+		{"id": "30","name":"Piccadilly","cost": "2800"},
+		{"id": "32","name":"Regent Street","cost": "3000"},
+		{"id": "33","name":"Oxford Street","cost": "3000"},
+		{"id": "35","name":"Bond Street","cost": "3200"},
+		{"id": "38","name":"Park Lane","cost": "3500"},
+		{"id": "40","name":"Mayfair","cost": "4000"}
+	],
+	"2": [	
+		{"id": "6","name":"Kings Cross Station","cost": "2000"},
+		{"id": "16","name":"Marylebone Station","cost": "2000"},
+		{"id": "26","name":"Fenchurch St Station","cost": "2000"}, 
+		{ "id": "36","name":"Liverpool Street Station","cost": "2000"}
+	],
+	    
+	"3": [	
+		{"id": "13","name":"Electric Company", "cost": "1500"},
+		{"id": "29","name":"Water Works","cost": "1500"}
+		]
+}		

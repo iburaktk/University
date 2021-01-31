@@ -1,0 +1,23 @@
+{
+	"chanceList" : [
+		{"item":"Advance to Go (Collect $200)"},
+		{"item":"Advance to Leicester Square"},
+		{"item":"Go back 3 spaces"},
+		{"item":"Pay poor tax of $15"},
+		{"item":"Your building loan matures - collect $150"},
+		{"item":"You have won a crossword competition - collect $100 "}
+	],
+	"communityChestList" : [
+		{"item":"Advance to Go (Collect $200)"},
+		{"item":"Bank error in your favor - collect $75"},
+		{"item":"Doctor's fees - Pay $50"},
+		{"item":"It is your birthday Collect $10 from each player"},
+		{"item":"Grand Opera Night - collect $50 from every player for opening night seats"},
+		{"item":"Income Tax refund - collect $20"},
+		{"item":"Life Insurance Matures - collect $100"},
+		{"item":"Pay Hospital Fees of $100"},
+		{"item":"Pay School Fees of $50"},
+		{"item":"You inherit $100"},
+		{"item":"From sale of stock you get $50"}
+		]
+}
