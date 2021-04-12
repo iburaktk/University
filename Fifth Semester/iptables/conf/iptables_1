@@ -1,0 +1,23 @@
+Computer Engineering:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A INPUT -i 192.168.5.254 -p tcp -m iprange --src-range 192.168.10.1-192.168.10.253 -m iprange --dst-range 192.168.5.1-192.168.5.253 --sport 24 --dport 24 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -o 192.168.5.254 -p tcp -m iprange --src-range 192.168.5.1-192.168.5.253 -m iprange --dst-range 192.168.10.1-192.168.10.253 --sport 24 --dport 24 -m state --state ESTABLISHED -j ACCEPT
+iptables save
+
+Electronic Engineering:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A INPUT -i 192.168.10.254 -p tcp -m iprange --src-range 192.168.5.1-192.168.5.253 -m iprange --dst-range 192.168.10.1-192.168.10.253 --sport 24 --dport 24 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -o 192.168.10.254 -p tcp -m iprange --src-range 192.168.10.1-192.168.10.253 -m iprange --dst-range 192.168.5.1-192.168.5.253 --sport 24 --dport 24 -m state --state ESTABLISHED -j ACCEPT
+iptables save
+
+Firewall:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A FORWARD -i 192.168.10.254 -o 192.168.5.254 -m state --state ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i 192.168.5.254 -o 192.168.10.254 -m state --state ESTABLISHED,RELATED  -j ACCEPT
+iptables save

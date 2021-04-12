@@ -1,0 +1,35 @@
+Computer Engineering:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A INPUT -i 192.168.5.254 -s 170.192.40.234,144.188.127.195 -m iprange --dst-range 192.168.5.1-192.168.5.253 -p tcp -m multiport --dports 80,443 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -o 192.168.5.254 -m iprange --src-range 192.168.5.1-192.168.5.253 -d 170.192.40.234,144.188.127.195 -p tcp -m multiport --sports 80,443 -m state --state ESTABLISHED -j ACCEPT
+iptables save
+
+Electronic Engineering:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A INPUT -i 192.168.10.254 -s 170.192.40.234,144.188.127.195 -m iprange --dst-range 192.168.10.1-192.168.10.253 -p tcp -m multiport --dports 80,443 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -o 192.168.10.254 -m iprange --src-range 192.168.10.1-192.168.10.253 -d 170.192.40.234,144.188.127.195 -p tcp -m multiport --sports 80,443 -m state --state ESTABLISHED -j ACCEPT
+iptables save
+
+Physics Engineering:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A INPUT -i 192.168.25.254 -s 170.192.40.234,144.188.127.195 -m iprange --dst-range 192.168.25.1-192.168.25.253 -p tcp -m multiport --dports 80,443 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A OUTPUT -o 192.168.25.254 -m iprange --src-range 192.168.25.1-192.168.25.253 -d 170.192.40.234,144.188.127.195 -p tcp -m multiport --sports 80,443 -m state --state ESTABLISHED -j ACCEPT
+iptables save
+
+Firewall:
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
+iptables -A FORWARD -i 192.168.5.254 -o 195.152.248.90 -m -d 170.192.40.234,144.188.127.195 state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i 192.168.10.254 -o 195.152.248.90 -m -d 170.192.40.234,144.188.127.195 state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i 192.168.25.254 -o 195.152.248.90 -m -d 170.192.40.234,144.188.127.195 state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i 195.152.248.90 -o 192.168.5.254 -m -s 170.192.40.234,144.188.127.195 state --state ESTABLISHED,RELATED  -j ACCEPT
+iptables -A FORWARD -i 195.152.248.90 -o 192.168.10.254 -m -s 170.192.40.234,144.188.127.195 state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -i 195.152.248.90 -o 192.168.25.254 -m -s 170.192.40.234,144.188.127.195 state --state ESTABLISHED,RELATED  -j ACCEPT
+iptables save
