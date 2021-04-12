@@ -1,0 +1,63 @@
+Graph structure:
+a(9)-->f r g k s t i o b o y g s v v
+b(4)-->s u w m p a o n
+c(5)-->f x g k w f i q
+d(19)-->v g n p q u n p f
+e(17)-->u i k j l p v f
+f(8)-->a c o t p n v l x c n d e
+g(8)-->d c j a s a
+h(14)-->x w x w
+i(1)-->y e k r q c a
+j(16)-->u k p g e t s w
+k(9)-->j q n e i o c q a o s r q y u l
+l(13)-->t m p f o e x k u t t
+m(11)-->l w q p b x
+n(13)-->d k t f d f p o o b
+o(18)-->f p y w k k l u a a n b u n
+p(1)-->o d q f j l m e b q d n t
+q(8)-->k v p d m k i v k p c
+r(9)-->u s a i s t y k u
+s(0)-->b r v t a r u k g u v j a
+t(4)-->l f n y s u u a r j u x v p l l
+u(18)-->e j r b z d t t s t o s r k l o
+v(8)-->d q s f q s t e a a
+w(6)-->b m o h c h j
+x(1)-->h c f h m t l
+y(19)-->i o t r k a
+z(2)-->u
+Broadcast steps:
+x-->h c f m t l
+h-->w
+c-->g k i q
+f-->a o p n v d e
+m-->b
+t-->y s u r j
+u-->z
+Message passing:
+z--->[z,2]--->u
+j--->[j,16]--->t
+r--->[r,9]--->t
+u--->[u,18]--->t
+s--->[s,0]--->t
+y--->[y,19]--->t
+b--->[b,4]--->m
+e--->[e,17]--->f
+d--->[d,19]--->f
+v--->[v,8]--->f
+n--->[n,13]--->f
+p--->[p,1]--->f
+o--->[o,18]--->f
+a--->[a,9]--->f
+q--->[q,8]--->c
+i--->[i,1]--->c
+k--->[k,9]--->c
+g--->[g,8]--->c
+w--->[w,6]--->h
+l--->[l,13]--->x
+t--->[y,19]--->x
+m--->[m,11]--->x
+f--->[d,19]--->x
+c--->[k,9]--->x
+h--->[h,14]--->x
+Best node-->d, y
+Possible roots-->x, t

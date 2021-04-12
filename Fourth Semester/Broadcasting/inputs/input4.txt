@@ -1,0 +1,30 @@
+a 5 b 17 c 2 d 11 e 5 f 5 g 2 h 18 i 9 j 14 k 18 l 7 m 0 n 15 o 9 p 1 q 6 r 5 s 4 t 8 u 19 v 2 w 17 x 12 y 7 z 14
+r
+a l
+b l
+c a
+d s
+e y
+f u
+g h
+h r
+i o
+j x
+k y
+l s
+m l
+n c
+o k
+p a
+q v
+r n
+s j
+t d
+u h
+v c
+w p
+x l
+y o
+z k
+z b
+q t

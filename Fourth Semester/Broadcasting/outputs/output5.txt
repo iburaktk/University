@@ -1,0 +1,55 @@
+Graph structure:
+a(3)-->d l q
+b(10)-->t j
+c(4)-->n j
+d(18)-->a g e j
+e(11)-->d
+f(10)-->t o p
+g(8)-->d k r
+h(2)-->p s
+i(18)-->n n
+j(6)-->d b c
+k(11)-->g m
+l(5)-->a q
+m(6)-->k q p
+n(13)-->c i i o
+o(0)-->f n
+p(8)-->h f m
+q(3)-->m l a
+r(15)-->g
+s(3)-->h t
+t(3)-->b f s
+Broadcast steps:
+k-->g m
+g-->d r
+m-->q p
+d-->a e j
+q-->l
+p-->h f
+j-->b c
+h-->s
+f-->t o
+c-->n
+n-->i
+Message passing:
+i--->[i,18]--->n
+n--->[i,18]--->c
+o--->[o,0]--->f
+t--->[t,3]--->f
+s--->[s,3]--->h
+c--->[i,18]--->j
+b--->[b,10]--->j
+f--->[f,10]--->p
+h--->[s,3]--->p
+l--->[l,5]--->q
+j--->[i,18]--->d
+e--->[e,11]--->d
+a--->[a,3]--->d
+p--->[f,10]--->m
+q--->[l,5]--->m
+r--->[r,15]--->g
+d--->[d,18][i,18]--->g
+m--->[f,10]--->k
+g--->[d,18][i,18]--->k
+Best node-->d, i
+Possible roots-->g
