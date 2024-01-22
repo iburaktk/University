@@ -1,0 +1,21 @@
+1- contex
+2- use case, activity
+3- package, compoonent
+4- state, sequence
+
+UML 2.0 
+software vision -> summary(define problem, solution, general features), stakeholders(projeyle alakalı kişiler etkileyen-etkilenen)
+project plan -> how, 
+contex diagram -> çöpadam, kare(sistem)
+vis.4.1 -> en fazla 5 falan ekle, high-level düşün
+herkesin farklı branch i olacak
+pull request
+admin/member/social sub-club admin
+non-functional requirements
+9 < use case < 12 , but can merge
+
+soru kısmında yaaay!! falan
+haberler/duyurular
+topluluğa başkan aranıyor!! Şu tarihe kadar başkan olmak isteyenler buraya başvursun.
+şifre değiştirmede time stamp li kullanıcı adlı bir şey
+KVKK gibisinden birşey

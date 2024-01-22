@@ -1,0 +1,23 @@
+﻿Binary search --> ortasına bak. sol-sağ yarımı al.
+Selection --> minimumu bul. en baştaki ile değiştir.
+Insertion +-> elindekileri teker teker yer değiştirerek sırala. N2
+Shell --> h-sort --> önce 13 lü sonra 4 lü sonra 1 li sırala. (3x+1)
+Merge +-> böl sırala birleştir.		N logN
+Quick --> ilk elemandan küçükleri sola büyükleri sağa. sonra sort.
+Heap --> leaf olmayanı batır, kök ile child i yer değiştir, Kökü batır.
+
+DFS --> recursively visit adjacent vertices.
+BFS --> adjacent vertexleri işaretleyip stack e koy. sırayla devam
+
+Kruskal --> cycle oluşturmayan en kısa kenar topluluğu MST dir.
+Prim --> kökten başlayıp en kısa dalları seçip MST yapmaktır.
+lazy prim --> edge PQ. bütün dalları sırala.
+eager prim --> vertex PQ. komşu vertexleri kenara göre sırala.
+
+Dijkstra --> kökten başla teker teker uzaklıkları hesapla.
+Topological sort bulabilirsen Dijkstra yı hızlandırırsın.
+Bellman-Ford --> V times relax each edge.
+
+Topological sortta directed cycle olmaz.
+Dijkstra da negative weight olmaz.
+Bellman-Ford negative cycle olmaz.

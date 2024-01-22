@@ -1,0 +1,55 @@
+6  BBM401 Automata Theory (İlyas Çiçekli) 	-> Online -> Çarşamba 1-4
+10 BBM406/409 Machine Learning (ABC) 		-> -> Çarşamba 9-12 / Çarşamba 4-6
+6  BBM411 Bioinformatics (Tunca Doğan) 		-> Online + -> Cuma 2-5
+10 BBM412/414 Computer Graphics (Ufuk Çelikcan) -> Online -> Salı 9-12 / Salı 4-6
+10 BBM413/415 Image Processing (Aydın Kaya) 	-> Online -> Salı 1-4 / Perşembe 4-6
+6  BBM443 Blockchain (Adnan Özsoy) 		-> Online -> Cuma 9-12
+
+10 BBM451/453 Computer Networks (Sevil Şen) 	-> Hibrit -> Pazartesi 1-4 / Salı 10-12
+6  BBM452 Data Communications (Suat Özdemir) 	-> Online -> Perşembe 9-12
+6  BBM475 Management Info Sys (Ayça Tarhan) 	-> -> 
+
+---Zorunlu---
+BBM427 Technology Seminars (Murat Aydos) -> -> Cuma 5-6
+BBM479 Project -> -> Pazartesi 4-6
+
+---ÇAKIŞMALAR---
+Salı 10-12 -> Computer Graphics <--> Computer Networks
+
+---Seçmeli---
+SEC512 FOTOĞRAFLARLA 20. YÜZYIL TÜRK SİYASİ TAR
+SEC493 ANAD.HEL.DÖN.MİM.:ŞEH.TAPIN.TİY. VE STOA
+SEC402 İki boyutlu bilgisayar destekli çizim
+SEC403 ÜÇ BOYUTLU BİLGİSAYAR DESTEKLİ ÇİZİM
+SEC457 İLERİ SÜRÜŞ TEKNİKLERİ
+SEC287 İNSANSIZ HAVA ARACI TEKN.VE UÇUŞ EĞ.I
+
+SEC210 GO
+SEC101 ATLETİZM TEMEL EĞİTİMİ I
+SEC133 AEROBİK TEMEL EĞİTİMİ I
+SEC258 BİLİM TARİHİ I
+SEC500 KARİYER GELİŞTİRME, PLANLAMA VE YÖNETİMİ
+SEC559 MEZUNİYET SONRASI İŞ HAYATINA HAZIRLIK
+SEC340 BEL VE BOYUN SAĞLIĞI
+SEC189 FİNANSAL OKURYAZARLIK
+SEC462 YÜZEY BİLİMİNDEN NANOYAPILARA
+SEC179 GEÇMİŞTEN GÜNÜMÜZE ANKARA
+SEC528 EL KUKLASI TASARIM VE UYGULAMASI
+SEC568 19. YÜZYIL SİYASİ TARİHİ
+SEC573 İLK YARDIM
+SEC367 ÖĞRENCİLER İÇİN LİDERLİĞE GİRİŞ
+SEC576 PROFESYONEL SUNUM TEKNİKLERİ
+
+
+JPN127 JAPONCA I
+İTA127 İtalyanca 1
+KRC127 KORECE I
+İSP127 İSPANYOLCA I
+FRA127 FRANSIZCA I
+RUS127 RUSÇA I
+
+GSM141 Fotoğraf
+GSM171 TELEVİZYON SİNEMA I
+IYB331 İşletmeye giriş
+EMÜ473 Technology Entrepreneurship -> Salı 10-2
+Tarih al

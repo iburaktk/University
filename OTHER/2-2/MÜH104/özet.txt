@@ -1,0 +1,32 @@
+﻿haftalık ses seviyesi < 87 dB --> 5 gün 8 saat ortalama
+85 dB den fazla 7.5 saatten fazla çalışmak yasak
+titreşim parmakların beyaz ve hissiz olmasına sebep olur
+light --> Annex-1 22 23 24
+temprature --> light 18.3, office 19.4-22.8, heavy 12.8-15.6 --> nem: %70
+Ionizing radiation  --> cosmic, X
+Non-ionizing --> radiant heat, radio, micro, terahertz, IF,visible, UV
+Natural radiation --> cosmic, alpha beta gamma, radioactive elements, Radon
+Artifical radiation --> atom bomb, nuclear power, EMR
+TIME-DISTANCE-BLOCKING --> protection of radiation
+
+Use of Work Equipment Directive 89/655/EEC --> UK
+Provision and Use of Work Equipment Regulation (PUWER)(1 Jan 1998)--> 1 Jan 1993
+
+Small Voltage <= 50	Low Voltage <= 1000	High Voltage > 1000
+>= 30mA is harmful to body
+PPE is No: 30761, dated May 1st, 2019. 
+1. kategori --> minor injuries, <50 derece, güneş
+3. kategori --> ciddi sağlık sorunu, kimyasal, oksijensiz, radyasyon, >100 derece, yüksekten düşme, boğulma, elektrik, yüksek ses
+2. kategori --> 1 ve 3 te olmayanlar
+
+Qualitative --> olasılık ve risk level. high-medium-low
+Semi-quantitative --> numerical rating scales
+Quantitative --> pratical values. teorik değil
+Delphi tekniği --> Standart sapması düşük olan fikirlerin ortalamasını al.
+Control list - Preliminary hazard analysis - HAZOP - SWIFT - FMEA - FTA - ETA
+
+Fine-Kinney method --> S(Severity) E(Exposure) P(Probability)
+P --> 0,1 0,2 0,5 1(Long-term possible) 3(Unusual) 6(Possible) 10(Expected)
+E --> 0,5 1(Rarely) 2(Sometimes) 3 (Occasionaly) 6(Frequently) 10(Constantly)
+S --> 1(Slight Effect) 3(Important) 7(Severe-Lasting injury) 15(Fatal) 40(Disaster)
+R (S.E.P) --> 0-21(acceptable) 22-71(little) 72-201(Moderate) 202-401(High)

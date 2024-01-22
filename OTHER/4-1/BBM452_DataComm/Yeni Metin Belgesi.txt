@@ -1,0 +1,13 @@
+Distributed Processing
+Network Criteria
+Physical Structures
+Network Models
+Categories of Networks
+Interconnection of Networks: Internetwork
+
+simplex - half duplex - full duplex (data flow)
+point-to-point - multipoint (types of connections)
+Topology -> mesh(hepsi birbirine bağlı (n*(n-1))/2) - star(güneş sistemi) - bus(duraklı) - ring(daire)
+switched WAN(bulut-uydu) - point-to-point WAN
+ISP(Internet Service Provider) NAP(Network Access Point)
+OSI(Open Systems Interconnection)

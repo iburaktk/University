@@ -1,0 +1,64 @@
+
+\documentclass[11pt]{article}
+
+\marginparwidth 0.2in 
+\oddsidemargin 0.1in 
+\evensidemargin 0.1in 
+\marginparsep 0.1in
+\topmargin 0.1in 
+\textwidth 6.5in \textheight 8 in
+
+\usepackage{hyperref}  
+\usepackage{listings}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{attachfile}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\@maketitle}{\vskip 2em}{\vspace*{-3cm}}{}{}
+\makeatother
+
+\author{İbrahim Burak Tanrıkulu, 21827852}
+\title{BBM382 Software Engineering\\Reading Assignment 1}
+
+\begin{document}
+\maketitle
+
+\section{Software System Engineering}
+In the past, softwares depends on hardware capabilities. In course of time, technology has improved and this limitation disappeared. Also, many things in our life done by softwares now. We use more machines, more programs, thus more software.  Increase of software usage and decrease of limitations caused to software systems have become larger and more complex. Thus, large software systems don’t meet their deadline or estimated cost nor fullfill expectations. This situation named as “software crisis”. To solve that problem, software developers have introduced Software System Engineering. 
+
+\section{System and System Engineering}
+System Engineers make description of configurations that produce the product in a best way. System engineers make documents, not products. 
+System engineering involves five functions:\\
+{\bf Problem definition:} determine requirements and constraints\\
+{\bf Solution analysis:} determine a solution which is optimum\\
+{\bf Process planning:} determine tasks, size/effort, task precedence, risks\\
+{\bf Process control:} measure progress, review products, take corrective action when neccessary\\
+{\bf Product evaluation:} determine percentage of quality products
+
+\section{What is Software System Engineering}
+Software System Engineering is not a job derscription, it is a process. This process is performed by system engineers, software engineers, programmers, managers, acquierers and users. These stakeholders must handle technical management and verification of the system. As you can realize from its name, Software System Engineering responsible from software part of the system. Thus, SwSE starts to work after requirements have been partitioned to software. SwSE firstly creates description of the system software. Secondly determines size, configuration and quality. Then, determines requirements and design specifications. After that, determines test procedures and verify the product. Lastly, creates a documentation to use, operate and maintainance.
+
+\section{SwSE and SwE}
+Both SwSE and SwE are responsible from software part of the system. SwSE makes software requirement analysis and architectural software design. Then, SwE makes detailed software desing and codes it. When coding is finished, SwE tests software subsystem. If it passes, SwSE tests software integration and system. Basically, SwSE and SwE works mutually.
+
+\section{SwSE and project management}
+The project management process involves evaluating risks and costs, planning, organizing, staffing, directing, maintaining configuration control and auditing. So, project management has overall management responsibility and authority. Whereas, SwSE determines techical details, interfaces with acquirer and accepts final software.
+
+\section{Software System Engineering functions}
+
+{\bf Requirement analysis}\\
+The first step in any software development is document the system and software requirements specification. SwSE must determine functional requirements, performance requirements, external interface requirements, design constraints and quality attributes.\\
+{\bf Software design:}\\
+Desingers try to make most efficient and effective system. SwSE makes architectural design of this system. While making architectural design, SwSE determines software requirements, structures components and data, defines the interfaces. Then, SwE makes detailed design of software.\\
+{\bf Process planning:}\\
+Firstly, SwSE must specify the project goal, objectives and tasks to be done. After that, SwSE determine solution approach and strategies. Then, determine analysis and technical risks. Then, SwSE define process model.\\
+{\bf Process control:}\\
+Process control is a feedback system for how well the project is going. SwSE measures performance and results. If something is wrong, then SwSE can make suggestions, change plans or terminate the project. If necessary, SwSE reengineer the software requirements.\\
+{\bf Verification, Validation and Testing:}\\
+Verification is about developement. If developement techniques is right, then its verified. Validation is about product. If you produce right product, then its validated. Testing is a technique for verification and validation. We must test all requirements to fulfill the system acquirer's expectations.
+
+\end{document}

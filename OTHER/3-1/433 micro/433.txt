@@ -1,0 +1,15 @@
+﻿Mythical Man-Month IBM 32 360
+
+k210 --> tensorflow
+nvidia küçük board
+nvidia processor
+
+nt new tech
+pico java
+ICE-ICD --> işlemcinin I-O denetimi izleme
+vertical-horizental-pico programming
+keil
+PWM
+debouncing
+[op amp]
+shanon sampling theorem

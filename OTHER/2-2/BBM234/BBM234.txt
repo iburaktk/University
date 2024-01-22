@@ -1,0 +1,117 @@
+﻿$t0 --> 8
+$t7 --> 15
+$t8 --> 24
+$t9 --> 25
+
+$s0 --> 16
+$s7 --> 23
+
+lw --> load word  --> lw $s3, 1($0)   --> word1 to s3 --> (lw rt, imm(rs))
+sw --> store word --> sw $t4, 0x7($0) --> word7 to t4
+lb --> load byte -->  
+sb --> store byte --> BU İKİSİNDE 4 İLE ÇARP
+
+addi $s0, $s0, -4 --> a = a + -4 --> a = a - 4
+
+R-Type --> add rd, rs, rt
+6 bit --> op --> her zaman 000000
+5 bit --> rs --> değişken 1
+5 bit --> rt --> değişken 2
+5 bit --> rd --> hedef değişken
+5 bit --> shamt --> shift amount --> 00000
+6 bit --> funct --> fonksiyon neyse o
+
+I-Type --> addi rt, rs, 10
+6 bit --> op --> fonksiyon neyse o --> 0 dan farklı
+5 bit --> rs --> değişken
+5 bit --> rt --> hedef değişken
+16 bit --> imm --> immediate value
+
+J-Type --> jump 0xABCDEF01
+6 bit --> op --> jump op number --> I-Type ile ayır etmek için
+26 bit --> addr --> zıplanacak adres
+
+GENEL BİLGİ 
+--> op 0 ise R-Type dır. funct a bak. Yap işlemini.
+--> op jump ise J-Type dır. Zıpla.
+--> değilse I-Type dır. Yap işlemini.
+
+and --> masking --> 0xABCDEF45 and 0X000000FF = 0x00000045
+or --> combining --> 0xABCD0000 or 0x0000EF12 = 0xABCDEF12
+nor --> inverting --> 0x01010101 nor 0x00000000 = 0x10101010
+xor --> bildiğin xor işte
+andi --> masking vith immediate adress
+ori --> combining with immediate adress
+xori --> bildiğin xor immediate adress ile
+sll --> shift left logical  --> sll $t0, $t1, 5    --> <<
+srl --> shift right logical --> srl $t0, $t1, 5    --> >>
+sra --> shift right arithmetic --> sra $t0, $t1, 5 --> >>>
+sllv --> sllv $t0, $t1, $t2
+srlv --> srlv $t0, $t1, $t2
+srav --> srav $t0, $t1, $t2
+
+I-Type ile bir register'a 32 bit değer atamak istiyorsak 
+2 seferde yapmamız gerekiyor. Çünkü I-Type daki imm kısmı 
+16 bit. İlk olarak "lui (load upper immediately)" ile üst
+kısmı load ediyoruz. Sonra "ori" ile birleştiriyoruz.
+lui $s0, 0xFEDC         # $s0 = 0xFEDC0000
+ori $s0, $s0, 0x8765    # $s0 = 0xFEDC8765
+
+32 bit sayı ile 32 bit sayıyı çarptığımızda 64 bitlik sayı
+ortaya çıkar. Bunun için özel registerlar var (lo,hi).
+mult $s0, $s1     # s0 ile s1 i çarp. sonucu lo ve hi ye yaz
+mflo $s2          # lo değerini s2 ye taşı
+mfhi $s3          # hi değerini s3 e taşı
+
+32 bit sayı ile 32 bit sayıyı böldüğümüzde lo değerine bölüm,
+hi değerine kalan yazılır. Yine "mflo" - "mfhi" ile depolanır.
+
+beq --> branch if equal     --> beq $s0, $s1, target
+bne --> branch if not equal --> bne $s0, $s1, target
+j   --> jump		    --> j target
+jr  --> jump register       --> jr $s0 --> s0 değeri bir adres
+jal --> jump and link       --> jal function
+
+jr, R-Type dır. Program Counter ı s0 a eşitler.
+
+jal, "$ra" değişkenini sıradaki satır olarak atar ve fonksiyona
+gider. Fonksiyonda işlem yapıldıktan sonra "jr $ra" yazılmalı.
+Fonksiyonu jal ile çağırmadan önce "$a0 - $a3" değişkenleri ile
+fonksiyona arguman verilebilinir. "jr $ra" yazmadan önce 
+fonksiyonun return değeri "$v0" değişkenine atanmalı.
+Fonksiyonda kullanılacak $s ve $t değişkenlerini overwrite
+etmemek için ilk önce onları bir stack e atmalı. İşlemleri
+yapmalı ve return değerini belirlemeli. Daha sonra stackten
+eski değerler geri atanmalı ve fonksiyondan çıkılmalı.
+addi $sp, $sp, -8  # 2 elemanlı stack oluşturuldu
+sw $s0, 4($sp)     # s değeri stack e atıldı
+sw $t0, 0($sp)     # t değeri stack e atıldı
+*********          # işlemler yapıldı.
+add $v0, $s0, $t0  # return atandı
+lw $t0, 0($sp)     # t değeri geri alındı
+lw $s0, 4($sp)     # s değeri geri alındı
+addi $sp, $sp, 8   # stack freelendi.
+jr $ra		   # fonksiyondan çıkıldı
+
+Fonksiyon içinde fonksiyon varsa $ra değerlerini stack e at.
+
+$t değerlerini fonksiyon çağırmadan önce depolayabilirsin
+
+RegDst   --> writeback edilecek değer rt(1 15-11) mi rd(0 20-16) mi?
+ALUSrc	 --> ALU ya giren değer rt mi imm mi?
+MemtoReg --> Geri yazılacak değer data memory den mi alu dan mı geliyor?
+
+ALU op
+00 --> add
+01 --> sub
+10 --> look at funct
+11 --> set less than immediately
+
+ALU control
+00 --> X --> 010 add
+01 --> X --> 110 sub
+10 --> 100000 add --> 010 add
+10 --> 100010 sub --> 110 sub
+10 --> 100100 and --> 000 and
+10 --> 100101 or  --> 001 or
+10 --> 101010 slt --> 111 slt

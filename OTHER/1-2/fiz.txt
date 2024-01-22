@@ -1,0 +1,37 @@
+﻿Fb = qv x B --> sağ el kuralı --> yük * hız x Manyetik alan;
+vektörel çarpımı determinant yoluyla bulabilirsin.
+r = m*v / q*B
+T = 2*π*m / q*B
+w = q*B / m
+p = 2*π*m*vcos@ / q*B  --> spiralin adım uzaklığı
+///E = V*q  --> paralel levha arası gerilim * yük = enerji
+///elektrik alandaki elektriksel kuvvet = Fe = q*E
+manyetik alanın tele uyguladığı kuvvet = i * L x B
+///kaymadan dönen cismin yaptığı iş = 1/2 mv2 + 1/2 Iw2
+manyetik dipol momenti (akım halkası) = N(sarım) * i * A(alan)
+tork (akım halkası) = manyetik dipol momenti x manyetik alan
+Hall potansiyeli = Vh = E * d = B*i / n*e*t(kalınlık)
+Cyclotron frekansı = e*B / 2*π*m(kütle)
+Biot-Savart Yasası --> telin r uzaklıktaki yere manyetik alanı
+dB = μ0*i / 4*pi  *  dl x r / r3
+μ0 = 4*pi*10**-7
+sonsuz teldeki manyetik alan = μ0*i / 2*pi*R(en kısa uzaklık)
+normal tel =  μ0*i / 4*pi*R  *  L / kök((L/2)2 + R2) | L/2 |-L/2
+çembersel tel = μ0*i*pi / 4*R*teta(yayı gören açı)
+çembersel akım halkasının merkezinden geçen doğrudaki noktanın
+manyetik alanı = μ0*i*R2 / 2*(R2 + Z2(noktanın kenara))**3/2
+amper yasası = integral(B*dL) = μ0*i(iç)
+B = μ0*i / 2*pi*r
+tellerin birbirine uyguladığı F = μ0*I1*I2*L / 2*pi*a(uzaklık)
+Bobin selenoid manyetik alanı = μ0*n(N/L sarım/uzunluk)*i
+Bobin toroid B = μ0*N*i / 2*pi*r
+Dipol manyetik alanı = μ0*i*A / 2*pi*z3
+Akı = Φ = B . A * N(sarım)
+emk = sarım*akı / zaman  --> lenz kuralı
+V = B*v*l   akı = B*x*l
+P = r*i2
+Değişen manyetik alandan indüklenen elektrik alan= r*dB / 2*dt
+selenoidin akısı = N*B*A = (n*l)*(μ0*n*i)*A = L(indüktans)*i
+indüktans = μ0*n2*l*A --> Henry(H) birimi
+özindiksiyon emk = L * di/dt
+RL devresi --> emk = (i*R)+(L * di/dt) --> U = 1/2 *L*i2

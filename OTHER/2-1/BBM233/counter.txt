@@ -1,0 +1,39 @@
+`timescale 1ns / 1ps
+
+module DFlipFlop(D,clock,Q);
+    input D, clock;
+    output reg Q;
+    always @(posedge clock)
+        begin
+            Q <= D;
+        end
+endmodule
+
+module counter(M,clock,next_state[2],next_state[1],next_state[0]);
+
+    input M;
+    input clock;
+    
+    reg [2:0] present_state = 3'b000;
+    output wire [2:0] next_state;
+    
+    DFlipFlop C1 (
+        ((~present_state[2] & ~present_state[1] & ~present_state[0] & ~M ) | 
+         (~present_state[2] & present_state[1] & present_state[0] & M ) | 
+         (present_state[2] & present_state[1] & ~present_state[0] ) | 
+         (present_state[2] & ~present_state[1] & M ) | 
+         (present_state[2] & present_state[0] & ~M)) ,
+        clock , next_state[2] );
+        
+    DFlipFlop C2 (
+        (present_state[1]) , 
+        clock , next_state[1] );
+    
+    DFlipFlop C3 ( (~present_state[0]) , clock , next_state[0] ) ;
+    
+    always @(next_state) 
+    begin
+        present_state <= next_state;
+    end
+    
+endmodule

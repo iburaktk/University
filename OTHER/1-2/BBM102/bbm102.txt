@@ -1,0 +1,8 @@
+﻿abstraction ilgili kişiye ilgili kısmı göstermek
+encapsulation ayrıntıları gizlemek getter setter
+modularity kütüphaneler ve classlar gibi bölerek fethet -- hiyerarşi
+hierarchy class ların birbiri içine girmesi
+static demek obje oluşturmadan kullanabilmek demek. math fonksiyonları gibi
+inheritence is-a has-a meselesi
+instanceof --> Str == Str gibi türü eşitse true
+Dog myDog = new Dog(); Animal myAnimal = myDog(); buna polymorphism denir.

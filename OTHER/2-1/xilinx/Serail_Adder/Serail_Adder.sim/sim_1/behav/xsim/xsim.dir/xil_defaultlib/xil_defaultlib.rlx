@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/D_ff.v,1578076898,verilog,,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/full_adder.v,,D_ff,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/full_adder.v,1578130455,verilog,,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/serial_adder.v,,full_adder,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/full_adder_tb.v,1578069673,verilog,,,,full_adder_tb,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/serial_adder.v,1578130405,verilog,,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/shift_register.v,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/shift_register.v;C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/full_adder.v;C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/D_ff.v,serial_adder,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/serial_adder_tb.v,1578145218,verilog,,,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/serial_adder.v,serial_adder_tb,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/shift_register.v,1578130211,verilog,,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/serial_adder_tb.v,C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/D_ff.v,shift_register,,,,,,,,
+C:/Users/ibura/Desktop/xilinx/Serail_Adder/Serail_Adder.srcs/sources_1/new/shift_register_tb.v,1578129013,verilog,,,,shift_register_tb,,,,,,,,

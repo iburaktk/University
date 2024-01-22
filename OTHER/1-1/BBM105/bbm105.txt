@@ -1,0 +1,65 @@
+﻿The study of algorithms:
+Formal and mathematical properties --> studying the behavior of algorithms
+to determine wherher they are correct and efficient.
+Hardware realizations --> designing and building computer systems that are able to execute algorithms
+Linguistic realizatins --> designing programming languages and translating algorithms into these languages
+Applications --> Identifying important problems and designing correct and efficient software packages to solve these problems
+Conditional --> if else
+Iterative --> While for
+1. generation of computing (1950-1957) --> 
+Commercial computers, symbolic programming languages, binary arithmetic
+Vacuum tubes used to store data and programs
+Each computer was multiple rooms in size
+Computers were not very reliable
+2. generation of computing (1957-1965)
+Transistors, magnetic cores, first disks for mass storage
+Dramatic reduction size
+Icrease in reliability of computers, reduced cost of computers
+High-level programming languages, First operating system
+3. generation of computing (1965-1975)
+Integrated curcuits rather than individual electronic components were used
+Further reduction in size and cost of computers
+First minicomputers, time-shares operating systems, software industry formed
+First set of computing standarts for compability between systems
+4. generation of computing (1975-1985)
+Reduced to the size a typewriter
+Large-Very lange scale integrated circuits, first microcomputer developed
+Desktop and personal computers common
+New types of software and of the software industry
+Computer networks, emails, embedded systems, graphical user interfaces
+5. generation of computing (1985-)
+Ultra large scale integrated circuits, supercomputers, parallel processors
+Integrated global telecomminications, wireless data comminications
+Incorporating data,TV,fax, Internet, Laptops, World Wide Web
+High resolution graphics, visualization, virtual reality
+Massive storage devices, ubiquitous computing
+
+237/2 = 1, 118/2 = 0, 59/2 = 0, 29/2 = 1, 14/2 = 0, 7/2 = 1, 3/2 = 1, 1 = 1
+237 =(Decimal to Binary) 11101101 ---> 1110 1101 =(Binary to Hexadecimal) ED
+Hex = 1,2,3,4,5,6,7,8,9,A,B,C,D,E,F        bit = binary+digit
+terabyte 2**40, petabyte 2**50, exa-zetta-yotta
+assembly = low level  c++ java python = high level
+Machine Language --> ADD X Y 
+00001001(opcode) 0000000001100011(X) 0000000001100100(Y)
+
+1- Sıradaki işlemi Program Counter tuttu
+2- Control Unit sıradaki işlemi PC den öğrenip hafızadan komutları çekti.
+3- ALU bu işlemi yapmak için hafızadan gerekli değerleri aldı.
+4- İşlemi yaptı ve sonucu hafızaya yazdı.
+
+Deadlock --> İki programın birbirinin kullanacağı araçları aynı anda alamaması.
+
+Encoded data = Analog carrier signal + Digital input data
+Digital Subscriber Line(DSL) and cable modem, for home
+Ethernet - Fast ethernet for environment
+Local Area Network(LAN) --> ethernet used in this. You can connect with cables(bus,hubs)
+Wide Area Network(WAN) --> across city. 
+Internet Service Provider(ISP) --> Avea turkcell vodafone. Ev telefonu kullanılır.
+Bridge --> İki LAN bağlantısını birbirine bağlayarak veri alışverişine izin verir.
+TCP/IP --> İnternet kullanım Protokolü. OSI gibidir. 5 katmandan(layer) oluşur.
+Fiziksel katman--> Bit aktarırken hangi voltajlar seçilecek? falan.
+Data link layer--> Hata ayıklama. İki dosya aynı anda atılırken ownership i belirtme. Bilginin karşıya ulaştığını doğrulama.
+Network Layer--> IP adresi gibi değerler ile interneti kullanamk.
+Transport Layer--> Veri aktarımı. Hatasız, yüksek kalite
+Application Layer--> Farklı amaçlar için farklı protokoller. HTTP--> web e bağlantı. SMTP-IMAP-POP3 --> e-mail
+--- Bir dosyaya erişmek için önce tcp/ip ile bağlantı kurup sonra http ile "AL" mesajı gönderip alırsın.---

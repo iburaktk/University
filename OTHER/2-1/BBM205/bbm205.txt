@@ -1,0 +1,38 @@
+﻿conjuction --> and
+disconjuction --> or
+XOR --> ya da
+Conditional --> ise --> if A, then B
+Biconditional --> ancak ve ancak --> A if and only if B
+Tautology --> totoloji = kesin doğru
+Contradiction --> çelişki
+Contingency --> ne doğru ne yanlış
+De Morgan kuralı --> (and)' = or    (or)' = and
+Distibutive --> Dağılma
+Commutative --> Değişim --> A or B = B or A
+p --> q = q' --> p'
+p <-> q = (p --> q) and (q --> p)
+p <-> q = p' <-> q'
+(p <-> q)' = p' <-> q = p <-> q'
+Converse --> ters -->  p --> q     q --> p
+Inverse --> karşıt --> p --> q     p' --> q'
+Contrapositive --> karşıt ters
+Universal --> Her --> Ters A
+Existential --> Bazı --> Ters E
+Conclusion --> Sonuç
+Proposition --> Önerme
+Conjecture --> Varsayım
+Corollary --> Doğal sonuç
+Axiom --> Doğru olduğunu savunduğumuz önermeler
+Modus Ponens --> p --> q // p //// q
+Modus Tollens --> p --> q // q' //// p'
+Hypothetical Syllogism --> p --> q // q --> r //// p --> r
+Addition --> p //// p or q
+Resolution --> p or q // p' or r //// q or r
+Disjunctive Syllogism --> p or q // p' //// q
+Simplification --> p and q //// p
+Conjuction --> p // q //// p and q
+Direct Proof --> direk çıkarımlarla ispat rules of inference kullanarak
+Proof by Contrapositive --> p --> q = q' --> p' şeklinde karşıt tersini
+Proof by Contradiction --> q' olsaydı p olmazdı. Dolayısıyla q is true
+Proof by Cases --> Koşulları yazıp teker teker kanıtla
+Proof by Induction --> base case i onayla daha sonra (n+1). case in doğruluğunu kanıtla.

@@ -1,0 +1,21 @@
+﻿Seçmeli
+431 gelişmiş pc mimarileri
+463 bilgi güvenliği
+465 bilgi güvenliği lab
+433 mikro işleyiciler
+436 mikro işleyiciler lab
+
+401 özdevinirler kuramı
+402 hesaplama kuramı
+411 biyoenformatik
+412 bilgisayar grafiği
+413 görüntü işleme
+414 bilgisayar grafiği lab
+415 görüntü işleme labı
+443 blockchain
+451 bilgisayar ağları
+453 bilgisayar ağı lab
+458 kablosuz ve mobil ağlar
+460 kablosuz ağlar lab
+475 yönetim bilişim sistemleri
+

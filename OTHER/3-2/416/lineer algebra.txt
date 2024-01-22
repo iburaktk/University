@@ -1,0 +1,24 @@
+vector norm
+level 1 -> sum
+level 2 -> squareroot of sum of squares
+level 3 -> maxi |xi|
+matrix norm -> ?
+dot product -> a . b . cosx
+AB+AC=A(B+C)
+AB != BA
+(AB)C = A(BC)
+(ABC)^T = C^T B^T A^T
+^T = transpose
+determinant -> mapping a matrix into scalar
+det(A) = 0 -> A is regular
+tr -> trace -> sum of diagonal elements
+tr(AB) = tr(BA)
+tr(A+B) = tr(A) + tr(B) 
+Skew-symmetric -> simetrik gibi ama eksili hali -> A^T = -A
+
+Matrix transformation
+scaling -> 
+rotating -> 
+
+homogeneous system -> sonuna 1 ekle
+translate + rotate + scale

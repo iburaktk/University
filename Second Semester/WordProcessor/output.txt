@@ -1,0 +1,30 @@
+create -n first.txt -t C programming is awesome.
+create -t I love C programming. -n second.doc
+create -n third.txt -t Python programming is better than C programming.
+append -n second.doc -t what about you?
+print -e doc
+Filename 2:  second
+Text:  I love C programming.what about you?
+replace -n third.txt -ow program -nw lesson
+print -n third.txt -t
+Text:  Python lessonming is better than C lessonming.
+remove -n first.txt -s 13 -l 3
+print -n first.txt -t
+Text:  C programming awesome.
+print -n third.txt -cw on
+Text:  Python lessonming is better than C lessonming.
+Number Of Occurrence of "on" : 3
+create -n fourth.txt -t C programming is awesome. I love C program! what about you?
+print -n fourth.txt -cs
+Number Of Sentences :  3
+delete -n second.doc
+print -c
+Num:  1
+Name:  first
+Text:  C programming awesome.
+Num:  3
+Name:  third
+Text:  Python lessonming is better than C lessonming.
+Num:  4
+Name:  fourth
+Text:  C programming is awesome. I love C program! what about you?
